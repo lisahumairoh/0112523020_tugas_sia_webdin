@@ -1,6 +1,6 @@
 import express, { Request, Response } from "express";
 import cors from "cors";
-import app from "./app";
+import app from "./app.js";
 
 const PORT = 3000;
 
