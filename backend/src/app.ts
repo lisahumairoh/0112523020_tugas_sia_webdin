@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
 import path from "path";
-import mahasiswaRoutes from "./routes/mahasiswa.route.js";
-import prodiRoutes from "./routes/prodi.route.js";
+import mahasiswaRoutes from "./routes/mahasiswa.route";
+import prodiRoutes from "./routes/prodi.route";
 
 const app = express();
 
